@@ -1,0 +1,43 @@
+<%-include("header") -%>
+
+<div class="container">
+
+    <div>
+        <h1 class="Contact-Page">Start a New Case</h1>
+        <div class='row'>
+            <div class="col-lg-2"></div>
+             <div class="col-lg-8" id="form-box">
+
+                <form action="/new-case-submit" method="POST">
+                    <label id="labelName" for="your name">Your Name*</label> <br>
+                     <input type="text" class="input" placeholder="your name"><br>
+                    
+                    <label  id="labelName" for="your email">Your Email*</label> <br>
+                     <input type="text" class="input" placeholder="your email"> <br>
+                   
+                    <label id="labelName" for="subject">Subject*</label> <br>
+                     <input type="text" class="input" placeholder="subject"><br>
+                    
+                    <label for="message"id="labelName">message*</label>
+                    <br>
+                    <textarea rows="5" cols="40"> </textarea>
+                     <br>
+                     <button type="submit" class="btn btn-lg btn-submit">Submit</button>
+                   
+                    <a href="/cancel"class="btn btn-lg btn-submit cancel-btn">Cancel</a>
+
+                  </form>
+
+             </div>
+            <div class="col-lg-2"></div>
+
+        </div>
+
+        
+
+    </div>
+
+</div>
+
+
+<%-include("footer") -%>

@@ -1,0 +1,23 @@
+<%-include("header") -%>
+
+
+<div class="container">
+<div class='home jumbotron'> 
+
+    <h1>HOME PAGE</h1>
+    <p class="home-heading"><%=homeDes%></p>
+</div>
+
+<p class="nameOfcomment">daye</p>
+<p class="user-comment">dd</p>
+<form action="/give-comment" id="comment">
+<textarea id="text-area"name=""  cols="40" rows="3"></textarea>
+<br><button type="submit"  class="btn btn-lg post-comment " id="text-area">POST</button>
+<a href="/"class="btn btn-lg  post-comment" >Cancel</a>
+</form>
+<button  class="btn btn-lg "id="give-comment">Give Comment</button>
+
+</div>
+<script src="external2.js"></script>
+
+<%-include("footer") -%>

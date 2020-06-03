@@ -1,0 +1,111 @@
+.home{
+    margin-top:3%;
+}
+.home-heading{
+color:rebeccapurple;
+font-size:1.8rem;
+text-align:justify;
+font-family: 'Open Sans', sans-serif;
+}
+.nameOfcomment{
+    color:brown;
+    font-size:1.6;
+    text-align: left;
+    font-weight:bold;
+}
+.user-comment{
+    font-size:0.9;
+    text-align:justify;
+    color:blue;
+}
+
+
+#give-comment{
+    background-color:#1b6ca8;
+    color:#fcf876;
+    margin-bottom:30px;
+   
+}
+
+#comment{
+    visibility: hidden;
+    
+}
+.margin{
+    margin:5% 0 5% 0;
+}
+.post-comment{
+    background-color: #1b6ca8;
+    color:#fcf876;
+    margin:20px 0 5px 0;
+    
+}
+.post-comment:hover{
+    background-color:#e71414;
+}
+
+#give-comment:hover{
+    background-color:#e71414;
+
+}
+
+
+/* styling for contact us page  */
+
+.Contact-Page{
+    text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    padding:3% 3%;
+}
+.new-case{
+    font-size:1.1rem;
+    color:rebeccapurple;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    margin:20px;
+}
+.contact-full-page{
+    padding:7%;
+}
+.start-here{
+    width:200px;
+    background-color: burlywood;
+    height:50px;
+    text-align: center;
+}
+.start-here:hover{
+    background-color: aliceblue;
+}
+.input{
+    margin:10px 0 10px 0;
+    width:300px;
+    height:40px;
+
+}
+#labelName{
+    
+    text-align:right;
+    color:rebeccapurple;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight:bold;
+    
+}
+#form-box{
+    margin-left:35%;
+    
+}
+.btn-submit{
+    background-color:#1b6ca8;
+    color:#edf492;
+    margin:20px 0 20px 0;
+}
+.btn-submit:hover{
+    background-color:#e84a5f;
+}
+.cancel-btn{
+    color:white;
+    
+    margin-left:15%;
+}
+a:active {
+   color:#edf492;;
+  }
